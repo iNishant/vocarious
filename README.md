@@ -1,1 +1,3 @@
 # Vocarious
+
+Endless meaningful learning
