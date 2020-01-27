@@ -1,7 +1,11 @@
 {
+  "name": "vocarious",
   "version": 2,
   "builds": [
-    { "src": "next.config.js", "use": "@now/next" }
+    { "src": "package.json", "use": "@now/next"}
   ],
-  "alias": "vocarious.in"
+  "routes": [
+    { "src": "/(.*)", "dest": "$1", "continue": true}
+  ],
+  "regions": ["bom1"]
 }
